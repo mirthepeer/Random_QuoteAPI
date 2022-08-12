@@ -1,5 +1,5 @@
 .Nav-bar{
-    background-color: rgb(55, 55, 230);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,56,255,0.5938084706538865) 100%, rgba(0,172,227,0.4481502073485645) 100%);
     display: flex;
     justify-content: center;
 }
