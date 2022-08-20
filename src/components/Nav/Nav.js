@@ -17,18 +17,25 @@ const Nav = () => {
 
 
 
-   <AppBar style={{alignItems: 'center'}}>
-    <Topography variant="h4">Random Quote Generator</Topography>
+   <AppBar style={{alignItems: 'center', width: '100hv', display:'flex'}}>
+    <Topography variant="h4">Random Quote Generator 
+    
+    
+    </Topography>
     <Button
+    style={{color:'white', background:'black'}}
+    variant='contained'
     size='large'
     endIcon={<GitHubIcon/>}
     href='https://github.com/mirthepeer/Random_QuoteAPI'
     >View Code</Button>
     
+    
    </AppBar>
 
    </Grid>
-   
+
+      
    
     // <div className='Nav-bar'>
     //     <div className='title'>

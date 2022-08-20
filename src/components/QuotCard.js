@@ -62,8 +62,9 @@ function QuotCard() {
    
    
     <Grid
-       xs={8}
-       md= {8}
+       xs={4}
+       md= {12}
+
     
 
        container
@@ -85,7 +86,7 @@ function QuotCard() {
         color="success"
         onClick={refresh}
         size='large'
-        style={{marginBottom:20}}
+        style={{marginBottom:20, color:'white', background:'black'}}
         
     
     >New Quote</Button>
