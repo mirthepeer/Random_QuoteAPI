@@ -59,17 +59,23 @@ function QuotCard() {
     
     <div className={classes.root}>
          
+   
+   
     <Grid
+       xs={12}
+       md= {12}
+    
+
        container
       spacing={0}
       direction="column"
       alignItems="center"
       justify="center"
-      style={{ minHeight: '70vh' }}
+      style={{ minHeight: '70vh', minWidth:`70vh`, padding: 50 }}
   >      
    <Card style={{ margin:20, textAllign: 'center', background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,56,255,0.5938084706538865) 100%, rgba(0,172,227,0.4481502073485645) 100%)', color:'white'  }}>
         <CardActioArea>
-        <CardContent style={{height:200, width:600, padding:20} }>
+        <CardContent style={{padding:20} }>
           <Topography style={{borderRadius:10, borderBlockColor: 'black', background:'white', color:'black'}}>{quote.author}</Topography>
           <Topography>{quote.content}</Topography>
         </CardContent>
