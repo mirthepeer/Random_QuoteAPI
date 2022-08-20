@@ -62,13 +62,12 @@ function QuotCard() {
    
    
     <Grid
-       xs={12}
-       md= {12}
+       xs={8}
+       md= {8}
     
 
        container
       spacing={0}
-      direction="column"
       alignItems="center"
       justify="center"
       style={{ minHeight: '70vh', minWidth:`70vh`, padding: 50 }}
